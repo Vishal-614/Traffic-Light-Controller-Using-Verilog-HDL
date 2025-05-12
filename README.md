@@ -28,9 +28,7 @@ Examine the waveform output to verify that the traffic light transitions through
 Save and Document Results:
 
 Capture screenshots of the waveform and save the simulation logs to include in your report.
-
 Verilog Code for Traffic Light Controller
-
 // traffic_light_controller.v
 module traffic_light_controller (
     input wire clk,
@@ -84,9 +82,7 @@ module traffic_light_controller (
         endcase
     end
 endmodule
-
 Testbench for Traffic Light Controller
-
 // traffic_light_controller_tb.v
 `timescale 1ns / 1ps
 
@@ -128,6 +124,10 @@ module traffic_light_controller_tb;
     end
 
 endmodule
+Output
+
+![TLC final](https://github.com/user-attachments/assets/5e964bfd-258f-4922-8318-e90d55caea92)
+
 
 
 Conclusion
