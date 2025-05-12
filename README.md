@@ -30,7 +30,6 @@ Save and Document Results:
 Capture screenshots of the waveform and save the simulation logs to include in your report.
 
 Verilog Code for Traffic Light Controller
-
 // traffic_light_controller.v
 module traffic_light_controller (
     input wire clk,
@@ -84,9 +83,7 @@ module traffic_light_controller (
         endcase
     end
 endmodule
-
 Testbench for Traffic Light Controller
-
 // traffic_light_controller_tb.v
 `timescale 1ns / 1ps
 
@@ -128,6 +125,9 @@ module traffic_light_controller_tb;
     end
 
 endmodule
+Output
+![TLC final](https://github.com/user-attachments/assets/4b3d5502-4179-4333-8265-f0fe34e3d4f8)
+
 
 
 Conclusion
